@@ -31,7 +31,7 @@ module.exports = {
         600: "#5D6370",
         700: "#434959",
         800: "#293041",
-        900: "#0f172a",
+        900: "#020115",
       },
       zinc: colors.zinc,
       neutral: colors.neutral,

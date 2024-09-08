@@ -5,17 +5,17 @@ import Container from "./Container.astro"
 ---
 
 <div class="relative" id="home">
-    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-1 -space-x-52 opacity-90 dark:opacity-90">
         <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.25/build/spline-viewer.js"></script>
         
-        <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+        <!-- <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div> -->
         <spline-viewer url="https://prod.spline.design/PuomAxuHPT35loE2/scene.splinecode"></spline-viewer>
-        <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+        <!-- <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div> -->
     </div>
     <Container>
         <div class="relative pt-36 ml-auto">
             <div class="lg:w-2/3 text-center mx-auto">
-                <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Shaping a world with <span class="text-primary dark:text-white">reimagination.</span></h1>
+                <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Building the Future of Web3 <span class="text-primary dark:text-white">Marketing.</span></h1>
                 <p class="mt-8 text-gray-700 dark:text-gray-300">Modern Problems, Modern Solutions</p>
                 <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
                     <!-- <a
@@ -27,13 +27,16 @@ import Container from "./Container.astro"
                       >
                     </a> -->
                     <a
-                      href="#"
-                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
+                      href="#features"
+                      class="relative flex h-11 w-full items-center justify-center pl-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
                     >
                       <span
                         class="relative text-base font-semibold text-primary dark:text-white"
-                        >Learn more</span
-                      >
+                        >Learn more
+                        <span 
+                          class="text-base dark:bg-primary relative px-6 py-3 rounded-full h-11"
+                        >Get Started</span>
+                      </span>
                     </a>
                 </div>
                 <div class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
